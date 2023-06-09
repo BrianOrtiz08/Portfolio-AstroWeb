@@ -1,0 +1,333 @@
+:root{
+  /*Colores complementario*/
+  --color-compl-a: #b37525;
+  --color-compl-b: #ffbe69;
+  --color-compl-d: #147ab3;
+  --color-compl-e: #afc0ff;
+  /*Color principal*/
+  --color-base: #ffb350;
+  /*Colores monocromáticos*/
+  --color-mono-a: #805928;
+  --color-mono-b: #ffd49c;
+  --color-mono-d: #806a4e;
+  --color-mono-e: #cc8f3f;
+
+  /*Fuentes tipográficas*/
+  --font-title: 'DM Serif Display', serif;
+  --font-text: 'DM Sans', sans-serif;
+
+  /*Tamaños de fuentes*/
+  --size-h1: 3.815rem;
+  --size-h2: 3.052rem;
+  --size-h3: 2.441rem;
+  --size-h4: 1.953rem;
+  --size-h5: 1.563rem;
+  --size-h6: 1.25rem;
+  --size-p: 1rem;
+  --size-p-small: 0.8rem;
+}
+
+/*Reset*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.contenedor-header{
+  background-color: whitesmoke;
+}
+
+.header{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 10vh;
+}
+
+.header__logo{
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+}
+
+.header__lista{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.header__img{
+  width: 30px;
+  transition: all .3s;
+}
+
+.header__img:hover{
+  opacity: .5;
+}
+
+/*Main*/
+.contenedor-main{
+  background-color: var(--color-base);
+}
+
+.main{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 3rem 0;
+  height: 90vh;
+}
+
+.informacion{
+  width: 60%;
+}
+
+.informacion__titulo{
+  font-family: var(--font-text);
+  font-size: var(--size-h4);
+}
+
+.informacion__nombre{
+  font-family: var(--font-title);
+  font-size: var(--size-h2);
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.informacion__nombre:hover{
+  opacity: .7;
+}
+
+.whatsapp{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .5rem;
+  background-color: rgb(60, 169, 60);
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+  width: max-content;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.whatsapp:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgb(24, 189, 24);
+}
+
+.whatsapp__parrafo{
+  color: white;
+  font-family: var(--font-text);
+  font-size: var(--size-h6);
+}
+
+.whatsapp__img{
+  height: 25px;
+}
+
+.informacion__cargo{
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+  text-decoration: underline;
+}
+
+.main__imagen{
+  width: 40%;
+}
+
+.main__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Fortalezas*/
+.contenedor-fortalezas{
+  background-color: #c4cded;
+}
+
+.fortalezas{
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.fortalezas__titulo{
+  color: rgb(57, 55, 55);
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+  padding-bottom: 1rem;
+}
+
+.fortalezas__contenedor-gral{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 3rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: .5rem 0;
+}
+
+.fortalezas__contenedor-titulo{
+  color: black;
+  font-family: var(--font-text);
+  font-size: var(--size-h5);
+  padding-bottom: .5rem;
+}
+
+.fortalezas__contenedor-parrafo{
+  color: black;
+}
+
+/*Quien soy*/
+.contenedor-quiensoy{
+  background-color: var(--color-base);
+}
+
+.quiensoy{
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.quiensoy__titulo{
+  font-family: var(--font-text);
+  font-size: var(--size-h6);
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.quiensoy__subtitulo{
+  font-family: var(--font-text);
+  font-size: var(--size-h2);
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+.quiensoy__parrafo{
+  font-family: var(--font-text);
+  font-size: var(--size-p);
+  line-height: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.quiensoy__contenedor-gral{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 1rem;
+}
+
+.quiensoy__contenedor{
+  background-color: rgba(255, 255, 255, 0.967);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: .3rem;
+}
+
+.quiensoy__imagen{
+  width: 40%;
+}
+
+.quiensoy__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .3s;
+}
+
+.quiensoy__img:hover{
+  transform: rotate(5deg);
+  cursor: pointer;
+}
+
+.quiensoy__skills{
+  font-family: var(--font-text);
+  font-size: var(--size-p);
+  font-weight: lighter;
+  letter-spacing: .1rem;
+}
+
+.quiensoy__skills:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*Trabajos*/
+.contenedor-trabajos{
+  background-color: #c4cded;
+}
+
+.trabajos{
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.trabajos__titulo{
+  font-family: var(--font-title);
+  font-size: var(--size-h3);
+  padding-bottom: 1rem;
+}
+
+.trabajos__contenedor-gral{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.trabajos__contenedor{
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  transition: all .7s;
+}
+
+.trabajos__contenedor:hover{
+  transform: scale(.95);
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+}
+
+.trabajos__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trabajos__popup{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.808);
+  text-align: center;
+}
+
+.trabajos__sitio{
+  font-family: var(--font-text);
+  font-size: var(--size-h6);
+  padding: 1rem 0;
+  color: whitesmoke;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.trabajos__sitio:hover{
+  text-decoration: underline;
+}
