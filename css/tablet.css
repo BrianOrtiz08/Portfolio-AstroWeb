@@ -1,85 +1,79 @@
-:root {
-    /*Colores complementario*/
-    --color-compl-a: #b37525;
-    --color-compl-b: #ffbe69;
-    --color-compl-d: #147ab3;
-    --color-compl-e: #afc0ff;
-    /*Color principal*/
-    --color-base: #ffb350;
-    /*Colores monocromáticos*/
-    --color-mono-a: #805928;
-    --color-mono-b: #ffd49c;
-    --color-mono-d: #806a4e;
-    --color-mono-e: #cc8f3f;
-    /*Fuentes tipográficas*/
-    --font-title: 'DM Serif Display', serif;
-    --font-text: 'DM Sans', sans-serif;
+@import "variables.css";
 
-    /*Tamaños de fuentes*/
-    --size-h1: 3.815rem;
-    --size-h2: 3.052rem;
-    --size-h3: 2.441rem;
-    --size-h4: 1.953rem;
-    --size-h5: 1.563rem;
-    --size-h6: 1.25rem;
-    --size-p: 1rem;
-    --size-p-small: 0.8rem;
-}
 
+
+/*Main*/
 .main {
     height: auto;
     flex-direction: column;
 }
-
 .main__imagen {
     align-self: flex-end;
 }
 
+
+
+/*Fortalezas*/
 .fortalezas__contenedor-gral {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.tablet-br {
-    display: initial;
-}
 
+
+/*Quien soy*/
 .quiensoy__contenedor-gral {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 3rem;
 }
+.tablet-br {
+    display: initial;
+}
 
+
+
+/*Trabajos*/
 .trabajos__contenedor-gral {
     grid-template-columns: 100%;
     gap: 2rem;
 }
 
+
+
+/*Presupuestos*/
 .presupuestos__contenedor {
     flex-wrap: wrap;
     gap: 3rem;
 }
 
+
+
+/*Presupuesto Personalizado*/
 .personalizado {
     padding: 1rem 0;
     font-size: var(--size-p-small);
 }
 
+
+
+/*Contacto*/
 .contacto {
     flex-direction: column;
     gap: 1rem;
 }
-
 .contacto__info {
     width: 100%;
     padding: 2rem;
     flex-direction: column;
 }
-
 .contacto__form {
     width: 100%;
 }
 
+
+
+/*Footer*/
 .footer__pagina-tablet {
     display: none;
 }

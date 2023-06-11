@@ -1,0 +1,46 @@
+:root {
+
+    /*Paleta de colores*/
+    --color-blanco: whitesmoke;
+    --color-blanco-suave: rgba(255, 255, 255, 0.967);
+    --color-negro: black;
+    --color-negro-suave: rgba(0, 0, 0, 0.808);
+    --color-verde: rgb(60, 169, 60);
+    --color-naranja: #ffb350;
+    --color-naranja-oscuro: #cc8f3f;
+    --color-celeste: #c4cded;
+    --color-celeste-oscuro: rgb(57, 55, 55);
+    --color-azul: rgb(9, 6, 37);
+    --color-gris: #292E33;
+    --color-marron: #806a4e;
+
+    /*Fuentes tipográficas*/
+    --font-title: 'DM Serif Display', serif;
+    --font-text: 'DM Sans', sans-serif;
+
+    /*Tamaños de fuentes*/
+    --size-h1: 3.815rem;
+    --size-h2: 3.052rem;
+    --size-h3: 2.441rem;
+    --size-h4: 1.953rem;
+    --size-h5: 1.563rem;
+    --size-h6: 1.25rem;
+    --size-p: 1rem;
+    --size-p-small: 0.8rem;
+}
+
+/*Reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
