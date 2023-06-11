@@ -1,0 +1,160 @@
+:root {
+
+    /*Fuentes tipográficas*/
+    --font-title: 'DM Serif Display', serif;
+    --font-text: 'DM Sans', sans-serif;
+
+    /*Tamaños de fuentes*/
+    --size-h1: 3.815rem;
+    --size-h2: 3.052rem;
+    --size-h3: 2.441rem;
+    --size-h4: 1.953rem;
+    --size-h5: 1.563rem;
+    --size-h6: 1.25rem;
+    --size-p: 1rem;
+    --size-p-small: 0.8rem;
+}
+
+.header {
+    gap: 1rem;
+    padding: .5rem 0;
+    height: auto;
+    flex-direction: column;
+}
+
+.header__logo {
+    font-size: var(--size-h4);
+}
+
+.header__lista {
+    gap: 1rem;
+}
+
+.header__img {
+    width: 20px;
+}
+
+.main {
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+}
+
+.informacion {
+    width: 100%;
+}
+
+.informacion__titulo {
+    font-size: var(--size-h5);
+}
+
+.informacion__nombre {
+    font-size: var(--size-h3);
+}
+
+.whatsapp__parrafo {
+    font-size: var(--size-p);
+}
+
+.whatsapp__img {
+    height: 20px;
+}
+
+.informacion__cargo {
+    font-size: var(--size-h5);
+    padding-bottom: 1rem;
+}
+
+.main__imagen {
+    align-self: center;
+    width: 50%;
+}
+
+.fortalezas__titulo {
+    font-size: var(--size-h5);
+}
+
+.fortalezas__contenedor-gral {
+    grid-template-columns: 100%;
+    gap: 2rem;
+}
+
+.fortalezas__contenedor-titulo {
+    font-size: var(--size-h6);
+}
+
+.quiensoy {
+    padding: 1.5rem 0;
+}
+
+.quiensoy__titulo {
+    padding-bottom: 0;
+}
+
+.quiensoy__subtitulo {
+    font-size: var(--size-h4);
+}
+
+.mobile-br {
+    display: initial;
+}
+
+.quiensoy__parrafo {
+    line-height: 1.5rem;
+    padding-bottom: 0;
+}
+
+.quiensoy__contenedor-gral {
+    grid-template-columns: 80%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contenedor-trabajos {
+    background-color: #c4cded;
+}
+
+.trabajos {
+    padding: 1.5rem 0;
+}
+
+.trabajos__titulo {
+    text-align: center;
+}
+
+.trabajos__contenedor-gral {
+    grid-template-columns: 100%;
+}
+
+.contacto {
+    padding: 1.5rem 0;
+    flex-direction: column;
+}
+
+.contacto__info {
+    width: 100%;
+}
+
+.contacto__info-titulo {
+    font-size: var(--size-h5);
+}
+
+.contacto__info-subtitulo {
+    padding-bottom: 1.5rem;
+}
+
+.contacto__info-numero {
+    padding-bottom: 1.5rem;
+}
+
+.contacto__form {
+    padding: 2rem;
+    width: 100%;
+}
+
+.footer__pagina,
+.footer__design,
+.footer__copy {
+
+    font-size: var(--size-p-small);
+}

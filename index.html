@@ -21,8 +21,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--LOGO-->
+    <link rel="shortcut icon" href="img/logo-tres.png" type="image/x-icon">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
+    <!--CSS TABLET-->
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/tablet.css">
+    <!--CSS MOBILE-->
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
     <!--TITLE-->
     <title>Astro Web</title>
 </head>
@@ -30,28 +36,30 @@
 <body>
 
     <div class="contenedor-header">
-        <header class="header">
-            <h1 class="header__logo">
-                ASTROWEB
-            </h1>
+        <header class="header" id="header">
+            <a href="#header">
+                <h1 class="header__logo">
+                    ASTROWEB
+                </h1>
+            </a>
 
             <nav class="header__nav">
                 <ul class="header__lista">
                     <li class="header__item">
-                        <a href="#" class="header__link">
-                            <img src="img/linkedin.svg" alt="" class="header__img">
+                        <a href="https://www.linkedin.com/in/brian08/" class="header__link" target="_blank">
+                            <img src="img/linkedin.svg" alt="Icono de LinkedIn" class="header__img">
                         </a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">
-                            <img src="img/github.svg" alt="" class="header__img">
+                        <a href="https://github.com/BrianOrtiz08" class="header__link" target="_blank">
+                            <img src="img/github.svg" alt="Icono de GitHub" class="header__img">
                         </a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">
-                            <img src="img/email.svg" alt="" class="header__img">
+                        <a href="mailto:ortizb355@gmail.com" class="header__link" target="_blank">
+                            <img src="img/email.svg" alt="Icono de Email" class="header__img">
                         </a>
                     </li>
                 </ul>
@@ -65,11 +73,11 @@
                 <h2 class="informacion__titulo">
                     Hola! Yo soy
                 </h2>
-                <a href="#" class="informacion__nombre">
+                <a href="https://www.linkedin.com/in/brian08/" class="informacion__nombre" target="_blank">
                     Brian Ortiz
                 </a>
-                <a href="#" class="whatsapp">
-                    <img src="img/whatsapp.svg" alt="" class="whatsapp__img">
+                <a href="https://api.whatsapp.com/send?phone=5493462307512" class="whatsapp" target="_blank">
+                    <img src="img/whatsapp.svg" alt="Icono de WhatsApp" class="whatsapp__img">
                     <p class="whatsapp__parrafo">Envíame un mensaje</p>
                 </a>
                 <p class="informacion__cargo">
@@ -78,7 +86,7 @@
             </div>
 
             <div class="main__imagen">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/brian08/" target="_blank">
                     <img src="img/webdeveloper.svg" alt="" class="main__img">
                 </a>
             </div>
@@ -94,31 +102,31 @@
             <div class="fortalezas__contenedor-gral">
                 <div class="fortalezas__contenedor">
                     <h3 class="fortalezas__contenedor-titulo">
-                        Fortaleza #1
+                        Diseño y Desarrollo
                     </h3>
                     <p class="fortalezas__contenedor-parrafo">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus obcaecati dolorum tempora
-                        beatae tempore voluptates non ducimus perferendis consequuntur eius?
+                        Tengo experiencia en diseñar y desarrollar sitios web personalizados que se adaptan a las
+                        necesidades de mis clientes.
                     </p>
                 </div>
 
                 <div class="fortalezas__contenedor">
                     <h3 class="fortalezas__contenedor-titulo">
-                        Fortaleza #2
+                        Adaptabilidad
                     </h3>
                     <p class="fortalezas__contenedor-parrafo">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus dolore reiciendis
-                        magni ipsam? Necessitatibus itaque magnam accusamus ratione! Corrupti.
+                        Me enfoco en diseñar sitios web que se ven y funcionan bien en diferentes dispositivos, como
+                        computadoras, tabletas y teléfonos móviles.
                     </p>
                 </div>
 
                 <div class="fortalezas__contenedor">
                     <h3 class="fortalezas__contenedor-titulo">
-                        Fortaleza #3
+                        Optimización y rendimiento
                     </h3>
                     <p class="fortalezas__contenedor-parrafo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium deserunt veniam
-                        voluptatem neque voluptatum quod. Sequi error dicta magni neque illio lorem.
+                        Me centro en optimizar el rendimiento de los sitios web para garantizar tiempos de carga rápidos
+                        y una experiencia de usuario eficiente.
                     </p>
                 </div>
             </div>
@@ -134,35 +142,42 @@
                 ¿Quién soy?
             </h4>
             <p class="quiensoy__parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ab quaerat, suscipit tenetur
-                officia officiis molestias dolor! Nihil sunt libero, iusto aliquid et, odit repellendus architecto iure,
-                distinctio doloremque magnam.
+                Soy Brian, un apasionado desarrollador web con experiencia en la creación de sitios web atractivos y funcionales.
+                <br class="mobile-br">
+                <br class="mobile-br">
+                Me especializo en diseño personalizado, adaptabilidad móvil y optimización del rendimiento. 
+                <br class="tablet-br">
+                <br class="tablet-br">
+                Con sólidos conocimientos en HTML y CSS transformo ideas en interfaces intuitivas y experiencias de usuario excepcionales. 
+                <br class="mobile-br">
+                <br class="mobile-br">
+                Si buscas un desarrollador web comprometido y orientado a resultados, estoy aquí para ayudarte en tu próximo proyecto web.
             </p>
             <div class="quiensoy__contenedor-gral">
                 <div class="quiensoy__contenedor">
                     <div class="quiensoy__imagen">
-                        <img src="img/desarrollo-web.svg" alt="" class="quiensoy__img">
+                        <img src="img/desarrollo-web.svg" alt="Icono de Desarrollo Web" class="quiensoy__img">
                     </div>
                     <p class="quiensoy__skills">DESARROLLO WEB</p>
                 </div>
 
                 <div class="quiensoy__contenedor">
                     <div class="quiensoy__imagen">
-                        <img src="img/diseno-grafico.svg" alt="" class="quiensoy__img">
+                        <img src="img/diseno-grafico.svg" alt="Icono de Diseño Gráfico" class="quiensoy__img">
                     </div>
                     <p class="quiensoy__skills">DISEÑO GRÁFICO</p>
                 </div>
 
                 <div class="quiensoy__contenedor">
                     <div class="quiensoy__imagen">
-                        <img src="img/mobile.svg" alt="" class="quiensoy__img">
+                        <img src="img/mobile.svg" alt="Icono de Diseño Adaptable" class="quiensoy__img">
                     </div>
                     <p class="quiensoy__skills">DISEÑO ADAPTABLE</p>
                 </div>
 
                 <div class="quiensoy__contenedor">
                     <div class="quiensoy__imagen">
-                        <img src="img/servidor.svg" alt="" class="quiensoy__img">
+                        <img src="img/servidor.svg" alt="Icono de Software" class="quiensoy__img">
                     </div>
                     <p class="quiensoy__skills">SOFTWARE</p>
                 </div>
@@ -177,49 +192,55 @@
             </h4>
             <div class="trabajos__contenedor-gral">
                 <div class="trabajos__contenedor">
-                    <img src="img/sitio-confort.png" alt="" class="trabajos__img">
+                    <img src="img/sitio-confort.png" alt="Imagen del sitio" class="trabajos__img">
                     <div class="trabajos__popup">
-                        <a href="https://brianortiz08.github.io/PreEntrega3-Ortiz/" target="_blank" class="trabajos__sitio"> - Diseño Confort -
+                        <a href="https://brianortiz08.github.io/PreEntrega3-Ortiz/" target="_blank"
+                            class="trabajos__sitio"> - Diseño Confort -
                         </a>
                     </div>
                 </div>
 
                 <div class="trabajos__contenedor">
-                    <img src="img/sitio-hotel-california.png" alt="" class="trabajos__img">
+                    <img src="img/sitio-hotel-california.png" alt="Imagen del sitio" class="trabajos__img">
                     <div class="trabajos__popup">
-                        <a href="https://brianortiz08.github.io/HotelCalifornia/" target="_blank" class="trabajos__sitio"> - Hotel California -
+                        <a href="https://brianortiz08.github.io/HotelCalifornia/" target="_blank"
+                            class="trabajos__sitio"> - Hotel California -
                         </a>
                     </div>
                 </div>
 
                 <div class="trabajos__contenedor">
-                    <img src="img/sitio-galeria.png" alt="" class="trabajos__img">
+                    <img src="img/sitio-galeria.png" alt="Imagen del sitio" class="trabajos__img">
                     <div class="trabajos__popup">
-                        <a href="https://fotazas.netlify.app/" target="_blank" class="trabajos__sitio"> - Galería de Imágenes -
+                        <a href="https://fotazas.netlify.app/" target="_blank" class="trabajos__sitio"> - Galería de
+                            Imágenes -
                         </a>
                     </div>
                 </div>
 
                 <div class="trabajos__contenedor">
-                    <img src="img/sitio-calendario.png" alt="" class="trabajos__img">
+                    <img src="img/sitio-calendario.png" alt="Imagen del sitio" class="trabajos__img">
                     <div class="trabajos__popup">
-                        <a href="https://brianortiz08.github.io/Calendario/" target="_blank" class="trabajos__sitio"> - Calendario -
+                        <a href="https://brianortiz08.github.io/Calendario/" target="_blank" class="trabajos__sitio"> -
+                            Calendario -
                         </a>
                     </div>
                 </div>
 
                 <div class="trabajos__contenedor">
-                    <img src="img/sitio-inicio-sesio.png" alt="" class="trabajos__img">
+                    <img src="img/sitio-inicio-sesio.png" alt="Imagen del sitio" class="trabajos__img">
                     <div class="trabajos__popup">
-                        <a href="https://brianortiz08.github.io/Inicio-Sesion/" target="_blank" class="trabajos__sitio"> - Inicio de Sesión -
+                        <a href="https://brianortiz08.github.io/Inicio-Sesion/" target="_blank" class="trabajos__sitio">
+                            - Inicio de Sesión -
                         </a>
                     </div>
                 </div>
 
                 <div class="trabajos__contenedor">
-                    <img src="img/sitio-portafolio.png" alt="" class="trabajos__img">
+                    <img src="img/sitio-portafolio.png" alt="Imagen del sitio" class="trabajos__img">
                     <div class="trabajos__popup">
-                        <a href="https://brianortiz08.github.io/Portafolio-Brian/" target="_blank" class="trabajos__sitio"> - Portafolio Personal -
+                        <a href="https://brianortiz08.github.io/Portafolio-Brian/" target="_blank"
+                            class="trabajos__sitio"> - Portafolio Personal -
                         </a>
                     </div>
                 </div>
@@ -227,25 +248,84 @@
         </section>
     </div>
 
+    <div class="contenedor-presupuestos">
+        <section class="presupuestos">
+            <h4 class="presupuestos__titulo">Tabla de precios</h4>
+            <div class="presupuestos__contenedor">
+                <div class="presupuestos__card">
+                    <p class="card__plan">Plan Básico</p>
+                    <p class="card__precio card__precio-recomendado card__precio-recomendado-invisible">Más recomendado
+                    </p>
+                    <p class="card__precio">$10.000</p>
+                    <p class="card__item">Cantidad de páginas: 3</p>
+                    <p class="card__item">Diseño adaptable: Si</p>
+                    <p class="card__item">Revisión para cambios: 1</p>
+                    <p class="card__item">Tiempo de entrega: 3 días hábiles</p>
+                    <p class="card__item">Personalización: Si</p>
+                    <p class="card__item">Integración redes sociales: Si</p>
+                    <p class="card__item">Formulaio de contacto: No</p>
+                    <p class="card__item">Optimización SEO básica: No</p>
+                </div>
+
+                <div class="presupuestos__card">
+                    <p class="card__plan">Plan Estándar</p>
+                    <p class="card__precio card__precio-recomendado">Más recomendado</p>
+                    <p class="card__precio">$15.000</p>
+                    <p class="card__item">Cantidad de páginas: 5</p>
+                    <p class="card__item">Diseño adaptable: Si</p>
+                    <p class="card__item">Revisión para cambios: 3</p>
+                    <p class="card__item">Tiempo de entrega: 7 días hábiles</p>
+                    <p class="card__item">Personalización: Si</p>
+                    <p class="card__item">Integración redes sociales: Si</p>
+                    <p class="card__item">Formulaio de contacto: Si</p>
+                    <p class="card__item">Optimización SEO básica: Si</p>
+                </div>
+
+                <div class="presupuestos__card">
+                    <p class="card__plan">Plan Premium</p>
+                    <p class="card__precio card__precio-recomendado card__precio-recomendado-invisible">Más recomendado
+                    </p>
+                    <p class="card__precio">$20.000</p>
+                    <p class="card__item">Cantidad de páginas: 10</p>
+                    <p class="card__item">Diseño adaptable: Si</p>
+                    <p class="card__item">Revisión para cambios: 5</p>
+                    <p class="card__item">Tiempo de entrega: 15 días hábiles</p>
+                    <p class="card__item">Personalización: Si</p>
+                    <p class="card__item">Integración redes sociales: Si</p>
+                    <p class="card__item">Formulaio de contacto: Si</p>
+                    <p class="card__item">Optimización SEO básica: Si</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="contenedor-personalizado">
+        <h5 class="personalizado">
+            Para un presupuesto personalizado completá el formulario o envíame un mensaje por WhatsApp
+        </h5>
+    </div>
+
     <div class="contenedor-contacto">
         <section class="contacto">
 
             <div class="contacto__info">
-                <h4 class="contacto__info-titulo">¿Tienes algún proyecto? <br> Hablemos</h4>
+                <h5 class="contacto__info-titulo">¿Tienes algún proyecto? <br> Hablemos</h5>
                 <p class="contacto__info-subtitulo">Diseñado para Web y Móvil</p>
                 <p class="contacto__info-telefono">Celular</p>
-                <a href="#" class="contacto__info-numero">+54 9 3462-307512</a>
+                <a href="https://api.whatsapp.com/send?phone=5493462307512" target="_blank"
+                    class="contacto__info-numero">+54 9 3462-307512</a>
                 <p class="contacto__info-correo">Envíame un mail o completa el formulario</p>
-                <a href="#" class="contacto__info-email">ortizb355@gmail.com</a>
+                <a href="mailto:ortizb355@gmail.com" class="contacto__info-email"
+                    target="_blank">ortizb355@gmail.com</a>
             </div>
 
             <form id="form" class="contacto__form">
                 <input class="contacto__form-input" type="text" placeholder="Ingrese su Nombre y Apellido" required
-                    name="nombre">
+                    name="nombre" id="nombre">
                 <input class="contacto__form-input" type="email" placeholder="Ingrese su Correo Electrónico" required
-                    name="correo">
-                <textarea class="contacto__form-textarea" name="mensaje" id="mensaje"
-                    placeholder="Escriba su mensaje" required></textarea>
+                    name="correo" id="correo">
+                <textarea class="contacto__form-textarea" name="mensaje" id="mensaje" placeholder="Escriba su mensaje"
+                    required></textarea>
                 <button class="contacto__form-boton" type="submit">ENVIAR</button>
             </form>
 
@@ -257,10 +337,29 @@
             <h5 class="footer__copy">
                 &copy; Derechos reservados
             </h5>
-            <a href="" class="footer__pagina">www.astroweb.com</a>
-            <a href="" class="footer__design">Diseñado por Brian Ortiz</a>
+            <a href="#header" class="footer__pagina footer__pagina-tablet">www.astroweb.com</a>
+            <a href="https://www.linkedin.com/in/brian08/" target="_blank" class="footer__design">Diseñado por Brian
+                Ortiz</a>
         </footer>
     </div>
+
+
+    <a href="mailto:ortizb355@gmail.com" id="trucazo">.</a>
+
+    <script>
+        const $form = document.querySelector('#form')
+        const $buttonMailto = document.querySelector('#trucazo')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        function handleSubmit(event) {
+            const form = new FormData(this)
+            console.log(form.get('nombre'))
+            $buttonMailto.setAttribute('href', `mailto:ortizb355@gmail.com?subject=Nombre: ${form.get('nombre')} - Correo: ${form.get('correo')}&body=${form.get('mensaje')}`)
+            $buttonMailto.click()
+        }
+    </script>
+
 
 </body>
 

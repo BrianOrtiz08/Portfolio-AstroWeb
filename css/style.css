@@ -11,7 +11,6 @@
   --color-mono-b: #ffd49c;
   --color-mono-d: #806a4e;
   --color-mono-e: #cc8f3f;
-
   /*Fuentes tipográficas*/
   --font-title: 'DM Serif Display', serif;
   --font-text: 'DM Sans', sans-serif;
@@ -34,6 +33,19 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
+.tablet-br, .mobile-br{
+  display: none;
+}
+
+body{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 /*Header*/
 .contenedor-header{
   background-color: whitesmoke;
@@ -46,12 +58,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  height: 10vh;
+  height: auto;
 }
 
 .header__logo{
   font-family: var(--font-title);
   font-size: var(--size-h4);
+  color: black;
 }
 
 .header__lista{
@@ -81,7 +94,7 @@
   justify-content: space-between;
   align-items: start;
   padding: 3rem 0;
-  height: 90vh;
+  height: auto;
 }
 
 .informacion{
@@ -172,10 +185,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
-  gap: 3rem;
+  gap: 2rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: .5rem 0;
+  padding: 1rem 0;
 }
 
 .fortalezas__contenedor-titulo{
@@ -187,6 +200,8 @@
 
 .fortalezas__contenedor-parrafo{
   color: black;
+  font-family: var(--font-text);
+  font-size: var(--size-p);
 }
 
 /*Quien soy*/
@@ -332,9 +347,89 @@
   text-decoration: underline;
 }
 
+/*Presupuestos*/
+.contenedor-presupuestos{
+  background-color: rgb(224, 221, 221);
+}
+
+.presupuestos{
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.presupuestos__titulo{
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+  padding-bottom: 2rem;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.presupuestos__contenedor{
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.presupuestos__card{
+  text-align: center;
+  border: 1px solid black;
+  width: max-content;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.card__plan{
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+  color: black;
+}
+
+.card__precio{
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+  padding-bottom: 1rem;
+  color: rgb(9, 6, 37);
+}
+
+.card__precio-recomendado{
+  font-family: var(--font-text);
+  font-size: var(--size-p);
+  padding-bottom: 0rem;
+  color: black;
+}
+
+.card__precio-recomendado-invisible{
+  opacity: 0;
+}
+
+.card__item{
+  font-family: var(--font-text);
+  font-size: var(--size-p);
+  padding: .5rem 0;
+  border-top: 1px solid black;
+}
+
+/*Presupuesto Personalizado*/
+.contenedor-personalizado{
+  background-color: var(--color-mono-e);
+}
+
+.personalizado{
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-family: var(--font-text);
+  font-size: var(--size-p);
+  text-transform: uppercase;
+}
+
 /*Contacto*/
 .contenedor-contacto{
-  background-color: var(--color-mono-b);
+  background-color: #c4cded;
 }
 
 .contacto{
@@ -469,7 +564,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  height: 10vh;
+  height: auto;
 }
 
 .footer__pagina, .footer__design, .footer__copy{
@@ -485,3 +580,8 @@
   cursor: pointer;
 }
 
+#trucazo{
+  opacity: 0;
+  position: absolute;
+  bottom: -10px;
+}
