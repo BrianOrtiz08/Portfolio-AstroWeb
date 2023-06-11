@@ -105,9 +105,17 @@
 }
 
 .quiensoy__contenedor-gral {
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
     justify-content: start;
     margin-top: 1rem;
+}
+
+.quiensoy__contenedor{
+    width: 80%;
+}
+
+.quiensoy__contenedor-end{
+    justify-self: end;
 }
 
 .contenedor-trabajos {
