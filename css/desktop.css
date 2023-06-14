@@ -274,64 +274,6 @@
 
 
 
-/*Presupuestos*/
-/* .contenedor-presupuestos{
-  background-color: var(--color-blanco);
-}
-.presupuestos{
-  width: 90%;
-  margin: 0 auto;
-  padding: 3rem 0;
-}
-.presupuestos__titulo{
-  font-family: var(--font-title);
-  font-size: var(--size-h4);
-  padding-bottom: 2rem;
-  color: var(--color-negro);
-  text-transform: uppercase;
-  text-align: center;
-}
-.presupuestos__contenedor{
-  display: flex;
-  justify-content: space-around;
-  gap: 1rem;
-}
-.presupuestos__card{
-  text-align: center;
-  border: 1px solid var(--color-negro);
-  width: max-content;
-  padding: 1rem;
-  border-radius: .5rem;
-}
-.card__plan{
-  font-family: var(--font-title);
-  font-size: var(--size-h4);
-  color: var(--color-negro);
-}
-.card__precio{
-  font-family: var(--font-title);
-  font-size: var(--size-h4);
-  padding-bottom: 1rem;
-  color: var(color-azul);
-}
-.card__precio-recomendado{
-  font-family: var(--font-text);
-  font-size: var(--size-p);
-  padding-bottom: 0rem;
-  color: var(--color-negro);
-}
-.card__precio-recomendado-invisible{
-  opacity: 0;
-}
-.card__item{
-  font-family: var(--font-text);
-  font-size: var(--size-p);
-  padding: .5rem 0;
-  border-top: 1px solid var(--color-negro);
-} */
-
-
-
 /*Presupuesto Personalizado*/
 .contenedor-personalizado{
   background-color: var(--color-naranja-oscuro);
